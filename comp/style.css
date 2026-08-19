@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background: #f3f4f6;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate {
+    width: 560px;
+    height: 246.18px;
+    background: #ffffff;
+    border-top: 8px solid #4caf50;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+    padding: 25px 30px;
+    text-align: center;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.title {
+    margin: 0 0 20px;
+    color: #4caf50;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.message {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.45;
+    color: #111;
+}
